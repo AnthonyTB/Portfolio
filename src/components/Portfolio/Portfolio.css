@@ -1,0 +1,385 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.secondary {
+  width: 80%;
+  border-radius: 20px;
+  background: #282830;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 60px 10px #000;
+}
+
+/* Groups */
+
+.group1 {
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.left-column {
+  margin-right: 0px;
+  width: 100%;
+}
+
+.right-column {
+  margin-right: 0px;
+  width: 100%;
+}
+
+/* Project #1 */
+
+.project1 .buttons {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+}
+
+.project1 h3 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #66fcf1;
+  pointer-events: none;
+  font-weight: 100;
+  font-size: calc(10px + 2vmin);
+}
+
+.project1 p {
+  margin-bottom: 25px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: left;
+  pointer-events: none;
+  font-size: calc(8px + 2vmin);
+  color: #c5c6c7;
+}
+
+.linkRef {
+  color: #66fcf1;
+  text-decoration: none;
+  pointer-events: visible;
+  transition: all 0.5s ease-out;
+}
+
+.linkRef:hover {
+  color: #45a29e;
+  transition: all 0.5s ease-out;
+}
+
+/* Tech */
+
+.grouping {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: calc(2vmin + 8px);
+}
+
+.TechHeading {
+  text-align: left;
+  color: #45a29e;
+  font-size: calc(2vmin + 5px);
+  display: inline;
+}
+
+.TechList {
+  display: inline;
+  font-size: calc(2vmin + 5px) !important;
+}
+
+/* Buttons */
+
+.project1 .buttons h4 a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  font-size: calc(4px + 2vmin);
+}
+
+.project2 .buttons h4 a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  font-size: calc(4px + 2vmin);
+}
+
+.buttons {
+  margin-left: 0;
+}
+
+.buttons i {
+  margin: 10px;
+  color: #66fcf1;
+  transition: all 0.5s ease-out;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1.3px solid #66fcf1;
+  border-radius: 50px;
+}
+
+.buttons i:hover {
+  color: #c5c6c7;
+  border: 1.3px solid #c5c6c7;
+  transition: all 0.5s ease-out;
+}
+
+/* Project #2 */
+
+.project2 h3 {
+  font-family: 'Raleway', cursive;
+  text-transform: uppercase;
+  color: #66fcf1;
+  pointer-events: none;
+  font-weight: 100;
+  margin-top: 30px;
+  font-size: calc(10px + 2vmin);
+}
+
+.project2 p {
+  margin-bottom: 25px;
+  margin-top: 0px;
+  pointer-events: none;
+  font-size: calc(8px + 2vmin);
+  color: #c5c6c7;
+}
+
+/* Website Showcases */
+
+.lyricHunter {
+  background-image: url('../../imgs/l1m.png');
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  height: 179px;
+  width: 200px;
+  transition: all 0.5s ease-out;
+}
+
+.lyricHunter:hover {
+  background-image: url('../../imgs/l2m.png');
+  transition: all 0.5s ease-out;
+}
+
+.codeNinjas {
+  background-image: url('../../imgs/CN1m.png');
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  height: 179px;
+  width: 200px;
+  transition: all 0.5s ease-out;
+}
+
+.codeNinjas:hover {
+  background-image: url('../../imgs/CN2m.png');
+  transition: all 0.5s ease-out;
+}
+
+.smartMarketplace {
+  background-image: url('../../imgs/sm1m.png');
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  height: 179px;
+  width: 200px;
+  transition: all 0.5s ease-out;
+}
+
+/* Tablet Media Queries */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .project1 h3 {
+    font-size: calc(20px + 2vmin);
+  }
+
+  .TechList {
+    font-size: calc(5px + 2vmin) !important;
+  }
+
+  .grouping {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .lyricHunter {
+    background-image: url('../../imgs/l1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .codeNinjas {
+    background-image: url('../../imgs/CN1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .smartMarketplace {
+    background-image: url('../../imgs/sm1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .TechHeading {
+    font-size: calc(2vmin + 5px);
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .project1 h3 {
+    font-size: calc(20px + 2vmin);
+  }
+
+  .TechList {
+    font-size: calc(5px + 2vmin) !important;
+  }
+
+  .lyricHunter {
+    background-image: url('../../imgs/l1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .codeNinjas {
+    background-image: url('../../imgs/CN1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .smartMarketplace {
+    background-image: url('../../imgs/sm1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .TechHeading {
+    font-size: calc(2vmin + 5px);
+  }
+}
+
+/* Laptop Media Queries */
+
+@media only screen and (max-width: 1500px) {
+  /* Groups */
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+}
+
+/* Desktop Media Queries */
+
+@media only screen and (min-width: 1025px) {
+  .secondary {
+    width: 85%;
+  }
+
+  /* Groups */
+
+  .right-column {
+    margin-right: 0px;
+    width: 40%;
+  }
+
+  .left-column {
+    width: 80%;
+    margin-right: 30px;
+  }
+
+  .group1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row {
+    width: 70%;
+  }
+
+  /* Project #1 */
+
+  .project1 h3 {
+    font-size: calc(14px + 2vmin);
+  }
+
+  .project1 p {
+    margin-bottom: 35px;
+    font-size: calc(3px + 2vmin);
+  }
+
+  /* Project #2 */
+
+  .project2 h3 {
+    font-size: calc(14px + 2vmin);
+  }
+
+  .project2 p {
+    margin-bottom: 35px;
+    font-size: calc(3px + 2vmin);
+  }
+
+  .grouping {
+    font-size: calc(3px + 2vmin);
+  }
+
+  /* Buttons */
+
+  .project1 .buttons h4 a {
+    font-size: calc(-6px + 2vmin);
+  }
+
+  .project2 .buttons h4 a {
+    font-size: calc(-6px + 2vmin);
+  }
+
+  .buttons i {
+    margin: 20px;
+  }
+
+  /* Website Showcases */
+
+  .lyricHunter {
+    background-image: url('../../imgs/l1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .lyricHunter:hover {
+    background-image: url('../../imgs/l2.png');
+  }
+
+  .codeNinjas {
+    background-image: url('../../imgs/CN1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .codeNinjas:hover {
+    background-image: url('../../imgs/CN2.png');
+  }
+
+  .smartMarketplace {
+    background-image: url('../../imgs/sm1.png');
+    height: 402px;
+    width: 450px;
+  }
+
+  .smartMarketplace:hover {
+    background-image: url('../../imgs/sm2.png');
+  }
+}

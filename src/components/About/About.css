@@ -1,0 +1,132 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.secondary {
+  width: 80%;
+  background: #282830;
+  background-position: center;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 60px 10px #000;
+}
+
+/* icons */
+
+.fab {
+  color: #c5c6c7;
+  transition: all 0.5s ease-out;
+}
+
+.fab:hover {
+  color: #45a29e;
+  transition: all 0.5s ease-out;
+}
+
+/* Body #1 */
+
+.body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.body1 hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.body1 h2 {
+  font-size: calc(12px + 2vmin);
+  font-weight: 100;
+  text-transform: uppercase;
+  pointer-events: none;
+  color: #c5c6c7;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+}
+
+.body1 h2 .name {
+  font-family: 'Sedgwick Ave', cursive;
+  color: #66fcf1;
+}
+
+.about .span2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #66fcf1;
+  font-weight: 100;
+}
+
+.about p {
+  color: #c5c6c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  pointer-events: none;
+  margin-bottom: 50px;
+  font-size: calc(8px + 2vmin);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.body1 h5 {
+  font-size: calc(10px + 2vmin);
+  font-weight: 100;
+  pointer-events: none;
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+
+.languages i {
+  font-size: calc(22px + 2vmin);
+  color: #c5c6c7;
+  margin: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.body2 h5 {
+  font-size: calc(20px + 2vmin);
+  font-weight: 100;
+  pointer-events: none;
+  padding-top: 0px;
+  text-transform: uppercase;
+  color: #c5c6c7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Desktop Media Queries */
+@media only screen and (min-width: 769px) {
+  .secondary {
+    width: 85%;
+  }
+
+  /* Body #1 */
+
+  .body1 h2 {
+    font-size: calc(20px + 2vmin);
+  }
+
+  .about p {
+    font-size: calc(3px + 2vmin);
+  }
+
+  .languages i {
+    font-size: calc(23px + 2vmin);
+    margin: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}

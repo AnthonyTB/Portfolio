@@ -1,0 +1,145 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+
+/* Signature */
+
+.sig {
+  height: 115px;
+  pointer-events: none;
+  width: 305px;
+  margin-top: 150px;
+}
+
+/* Social Icons */
+
+.icons a i {
+  margin: 15px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  pointer-events: visible;
+  color: #c5c6c7;
+  transition: all 0.5s ease-out;
+  font-size: calc(12px + 2vmin);
+}
+
+.icons a i:hover {
+  color: #66fcf1;
+  transition: all 0.5s ease-out;
+}
+
+.icons h6 {
+  font-size: calc(6px + 2vmin);
+  font-weight: 100;
+  font-family: 'Nanum Brush Script', cursive;
+  color: #45a29e;
+  pointer-events: none;
+}
+
+/* App-Header */
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 span {
+  font-size: calc(16px + 2vmin);
+  pointer-events: none;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #c5c6c7;
+}
+
+.App-header a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: calc(3px + 2vmin);
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #c5c6c7;
+  transition: all 0.5s ease-out;
+}
+
+.App-header a:hover {
+  color: #66fcf1;
+  transition: all 0.5s ease-out;
+}
+
+.react-rotating-text-cursor {
+  visibility: hidden;
+}
+
+/* Tool Tips Socials */
+
+.tooltip {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tooltip .top {
+  min-width: 50px;
+  line-height: 0;
+  top: -20px;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  padding: 10px 20px;
+  color: #c3c4c5;
+  background-color: #3a7171;
+  font-weight: normal;
+  font-size: 13px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 99999999;
+  box-sizing: border-box;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.tooltip:hover .top {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Desktop Media Queries */
+@media only screen and (min-width: 769px) {
+  /* Signature */
+
+  .sig {
+    height: 187px;
+    width: 497px;
+    margin-top: 200px;
+  }
+
+  .App-header h1 span {
+    font-size: calc(20px + 2vmin);
+  }
+
+  /* Social Icons */
+
+  .icons a i {
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 250px;
+    font-size: calc(8px + 2vmin);
+  }
+
+  .icons h6 {
+    font-size: calc(3px + 2vmin);
+  }
+
+  /* App Header */
+
+  .App-header a {
+    font-size: calc(-3px + 2vmin);
+  }
+}

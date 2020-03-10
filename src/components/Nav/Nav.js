@@ -16,12 +16,12 @@ export default class Header extends React.Component {
           >
             <AnchorLink className='tooltipM' href='#Home' aria-label='Home'>
               <i class='fas fa-home' />
-              <h7 className='rightM'>Home</h7>
+              <p className='rightM'>Home</p>
             </AnchorLink>
             <br />
             <AnchorLink className='tooltipM' href='#Bio' aria-label='About'>
               <i class='fas fa-user-alt' />
-              <h7 className='rightM'>About</h7>
+              <p className='rightM'>About</p>
             </AnchorLink>
             <br />
             <AnchorLink
@@ -30,7 +30,7 @@ export default class Header extends React.Component {
               aria-label='Portfolio'
             >
               <i class='fas fa-code' />
-              <h7 className='rightM'>Portfolio</h7>
+              <p className='rightM'>Portfolio</p>
             </AnchorLink>
           </Animated>
         </div>

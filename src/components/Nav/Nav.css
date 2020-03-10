@@ -40,6 +40,7 @@
   top: 50%;
   left: 100%;
   margin-left: 20px;
+  margin-top: 0;
   transform: translate(0, -50%);
   padding: 10px 20px;
   color: #c3c4c5;

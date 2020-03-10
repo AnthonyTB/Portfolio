@@ -30,7 +30,7 @@ export default class Header extends React.Component {
                   rel='noopener noreferrer'
                 >
                   <i className='fab fa-twitter' />
-                  <h7 className='top'>Twitter</h7>
+                  <p className='top'>Twitter</p>
                 </a>
                 <a
                   className='tooltip'
@@ -40,7 +40,7 @@ export default class Header extends React.Component {
                   rel='noopener noreferrer'
                 >
                   <i className='fab fa-github' />
-                  <h7 className='top'>GitHub</h7>
+                  <p className='top'>GitHub</p>
                 </a>
                 <a
                   className='tooltip'
@@ -50,7 +50,7 @@ export default class Header extends React.Component {
                   rel='noopener noreferrer'
                 >
                   <i className='fab fa-linkedin' />
-                  <h7 className='top'>LinkedIn</h7>
+                  <p className='top'>LinkedIn</p>
                 </a>
                 <a
                   className='tooltip'
@@ -60,7 +60,7 @@ export default class Header extends React.Component {
                   aria-label='Email Me'
                 >
                   <i className='fa fa-envelope' />
-                  <h7 className='top'>Email</h7>
+                  <p className='top'>Email</p>
                 </a>
                 &lt;/div&gt;
               </h6>

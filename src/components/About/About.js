@@ -6,7 +6,7 @@ export default class About extends React.Component {
   render() {
     return (
       <div className='secondary'>
-        <body id='Bio' className='body1'>
+        <section id='Bio' className='body1'>
           <Animated
             animationIn='fadeIn'
             animationInDelay='800'
@@ -27,7 +27,7 @@ export default class About extends React.Component {
                 love playing video games mostly first-person shooters because I
                 grew up on great games like Halo and Call of Duty. I also spend
                 a lot of my time on Medium reading up on the latest framework
-                updates. And so ya I hope you have a grasp about who I am.
+                updates.
               </p>
               <hr className='hr3' />
               <div className='languages'>
@@ -41,7 +41,7 @@ export default class About extends React.Component {
 
             <hr />
           </Animated>
-        </body>
+        </section>
       </div>
     );
   }

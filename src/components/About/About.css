@@ -120,7 +120,7 @@
   }
 
   .about p {
-    font-size: calc(3px + 2vmin);
+    font-size: calc(8px + 2vmin);
   }
 
   .languages i {

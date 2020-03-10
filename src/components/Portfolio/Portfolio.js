@@ -6,7 +6,7 @@ export default class Portfolio extends React.Component {
   render() {
     return (
       <div className='secondary'>
-        <body id='Work' className='body2'>
+        <section id='Work' className='body2'>
           <Animated
             animationIn='fadeIn'
             animationInDelay='800'
@@ -22,21 +22,20 @@ export default class Portfolio extends React.Component {
                   <div className='column'>
                     <div className='left-column'>
                       <p>
-                        Smart Marketplace is resell website for users that are
-                        either looking to sell or buy. Sellers have the ability
-                        to create listings which will show on the apps dashbord
-                        also on the user's profile it will show all of their
-                        active listings. Sellers have the ability to edit and
-                        remove their listings. The front-end of
-                        Smart-Marketplace was built using ReactJS and vanilla
-                        CSS. Some of React's key features I used were React
-                        Router, Context and I used State Mangement throughout
-                        the components. For the front-end unit & integration
-                        testing I used Mocha & Chai. Now on to the back-end of
-                        the app. Starting with the Node API I built using
-                        ExpressJS's router. Then I used KnexJS to make search
-                        queries for my PostgreSQL database. All of the endpoints
-                        were tested using Mocha & Chai as well.
+                        Smart Marketplace is a reselling website for users that
+                        are either looking to sell or buy. Sellers can create
+                        listings which will show on the app's dashboard also on
+                        the user's profile, it will show all of their active
+                        listings. Sellers can edit and remove their listings.
+                        The front-end of Smart-Marketplace was built using
+                        ReactJS and vanilla CSS. Some of React's key features I
+                        used were React Router, Context and I used State
+                        Management throughout the components. For the front-end
+                        unit & integration testing, I used Mocha & Chai. Now on
+                        to the back-end of the app. Starting with the Node API I
+                        built using ExpressJS's router. Then I used KnexJS to
+                        make search queries for my PostgreSQL database. All of
+                        the endpoints were tested using Mocha & Chai as well.
                       </p>
                       <div className='tech'>
                         <div className='grouping'>
@@ -94,15 +93,15 @@ export default class Portfolio extends React.Component {
                   <div className='column'>
                     <div className='left-column'>
                       <p>
-                        The Activity Manager is a small React web app with 3
+                        The Activity Manager is a small React web app with 2
                         routes and only 7 components. When you first access the
                         web app you are greeted by a Login route. This is a
-                        private app so you can't create accounts guest will be
+                        private app so you can't create accounts guests will be
                         able to access the app via the demo credentials. Once
                         logged in under the mentor account or demo account you
                         will have full access to the app. There's a timer that
                         once started and the time runs out will select a random
-                        item from the list based on a random generated number
+                        item from the list based on a randomly generated number
                         between 1 and the list length. Guest and mentors also
                         have the ability to create and delete activities. I also
                         created a student view that way the kids would be able
@@ -217,7 +216,7 @@ export default class Portfolio extends React.Component {
           </Animated>
           <hr />
           <br />
-        </body>
+        </section>
       </div>
     );
   }

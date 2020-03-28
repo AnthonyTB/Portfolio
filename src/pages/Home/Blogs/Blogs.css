@@ -1,0 +1,66 @@
+.Blogs {
+  width: 85%;
+  background: #282830;
+  background-position: center;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 60px 10px #000;
+}
+
+.body2 h5 {
+  font-size: calc(20px + 2vmin);
+  font-weight: 100;
+  pointer-events: none;
+  padding-top: 0px;
+  text-transform: uppercase;
+  color: #c5c6c7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Blogs ul {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.Blogs ul li {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  list-style: none;
+}
+
+.Blogs ul a {
+  text-decoration: none;
+  color: #66fcf1;
+}
+
+.ThingListItem__image {
+  height: 250px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  background-position: 50% 50%;
+}

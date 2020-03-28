@@ -12,6 +12,16 @@
   box-shadow: 0px 0px 60px 10px #000;
 }
 
+.body3 h5 {
+  font-size: calc(20px + 2vmin);
+  font-weight: 100;
+  pointer-events: none;
+  padding-top: 0px;
+  text-transform: uppercase;
+  color: #c5c6c7;
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* Groups */
 
 .group1 {
@@ -161,7 +171,7 @@
 /* Website Showcases */
 
 .lyricHunter {
-  background-image: url('../../imgs/l1m.png');
+  background-image: url('../../../imgs/l1m.png');
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -171,12 +181,12 @@
 }
 
 .lyricHunter:hover {
-  background-image: url('../../imgs/l2m.png');
+  background-image: url('../../../imgs/l2m.png');
   transition: all 0.5s ease-out;
 }
 
 .codeNinjas {
-  background-image: url('../../imgs/CN1m.png');
+  background-image: url('../../../imgs/CN1m.png');
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -186,12 +196,12 @@
 }
 
 .codeNinjas:hover {
-  background-image: url('../../imgs/CN2m.png');
+  background-image: url('../../../imgs/CN2m.png');
   transition: all 0.5s ease-out;
 }
 
 .smartMarketplace {
-  background-image: url('../../imgs/sm1m.png');
+  background-image: url('../../../imgs/sm1m.png');
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -216,19 +226,19 @@
   }
 
   .lyricHunter {
-    background-image: url('../../imgs/l1.png');
+    background-image: url('../../../imgs/l1.png');
     height: 402px;
     width: 450px;
   }
 
   .codeNinjas {
-    background-image: url('../../imgs/CN1.png');
+    background-image: url('../../../imgs/CN1.png');
     height: 402px;
     width: 450px;
   }
 
   .smartMarketplace {
-    background-image: url('../../imgs/sm1.png');
+    background-image: url('../../../imgs/sm1.png');
     height: 402px;
     width: 450px;
   }
@@ -248,19 +258,19 @@
   }
 
   .lyricHunter {
-    background-image: url('../../imgs/l1.png');
+    background-image: url('../../../imgs/l1.png');
     height: 402px;
     width: 450px;
   }
 
   .codeNinjas {
-    background-image: url('../../imgs/CN1.png');
+    background-image: url('../../../imgs/CN1.png');
     height: 402px;
     width: 450px;
   }
 
   .smartMarketplace {
-    background-image: url('../../imgs/sm1.png');
+    background-image: url('../../../imgs/sm1.png');
     height: 402px;
     width: 450px;
   }
@@ -354,32 +364,32 @@
   /* Website Showcases */
 
   .lyricHunter {
-    background-image: url('../../imgs/l1.png');
+    background-image: url('../../../imgs/l1.png');
     height: 402px;
     width: 450px;
   }
 
   .lyricHunter:hover {
-    background-image: url('../../imgs/l2.png');
+    background-image: url('../../../imgs/l2.png');
   }
 
   .codeNinjas {
-    background-image: url('../../imgs/CN1.png');
+    background-image: url('../../../imgs/CN1.png');
     height: 402px;
     width: 450px;
   }
 
   .codeNinjas:hover {
-    background-image: url('../../imgs/CN2.png');
+    background-image: url('../../../imgs/CN2.png');
   }
 
   .smartMarketplace {
-    background-image: url('../../imgs/sm1.png');
+    background-image: url('../../../imgs/sm1.png');
     height: 402px;
     width: 450px;
   }
 
   .smartMarketplace:hover {
-    background-image: url('../../imgs/sm2.png');
+    background-image: url('../../../imgs/sm2.png');
   }
 }

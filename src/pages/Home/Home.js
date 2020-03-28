@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import '../App.css';
-import Header from '../components/Header/Header';
-import Nav from '../components/Nav/Nav';
-import About from '../components/About/About';
-import Portfolio from '../components/Portfolio/Portfolio';
+import '../../App.css';
+import Header from './Header/Header';
+import Nav from './Nav/Nav';
+import About from './About/About';
+import Portfolio from './Portfolio/Portfolio';
+import Blogs from './Blogs/Blogs';
 
 export default class App extends Component {
   render() {
@@ -12,6 +13,9 @@ export default class App extends Component {
         <Header />
         <Nav />
         <About />
+        <br />
+        <br />
+        <Blogs />
         <br />
         <br />
         <Portfolio />

@@ -6,6 +6,7 @@ import BlogHelper from '../../../Helpers/BlogCalls';
 export default function Blogs() {
   const [blogs, setBlogs] = useState(null);
 
+  // on render grabs the most current list of blogs from database
   useEffect(() => {
     const fetchBlogs = async () => {
       if (!blogs) {
@@ -25,6 +26,7 @@ export default function Blogs() {
     return text;
   }
 
+  // renders the list of blogs
   const blogsList = () => {
     return (
       <ul>
@@ -37,8 +39,12 @@ export default function Blogs() {
                 backgroundImage: `url(${blog.mainimg})`
               }}
             >
-              <h3>{truncateTitle(blog.title)}</h3>
-              <span>{new Date(blog.date).toLocaleString().split(',')[0]}</span>
+              <div className='details'>
+                <h3>{truncateTitle(blog.title)}</h3>
+                <span>
+                  {new Date(blog.date).toLocaleString().split(',')[0]}
+                </span>
+              </div>
             </li>
           </Link>
         ))}

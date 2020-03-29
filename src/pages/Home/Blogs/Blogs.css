@@ -64,3 +64,8 @@
   background-size: cover;
   background-position: 50% 50%;
 }
+
+.Blogs .details {
+  width: 90%;
+  margin: auto auto;
+}
